@@ -1,0 +1,26 @@
+1. INNER JOIN
+	- Menampilkan semua data :
+	SELECT *
+	FROM table1
+	INNER JOIN table2
+	ON table1.primarykey table1 = table2.foreignkey table2
+
+	- Menampilkan data yang diinginkan :
+	SELECT table1.kolom, table1.kolom, table2.kolom
+	FROM table1
+	INNER JOIN table2
+	ON table1.primarykey table1 = table2.foreignkey table2
+
+2. LEFT JOIN
+	- Menampilkan semua data :
+	SELECT *
+	FROM table1
+	LEFT JOIN table2
+	ON table1.primarykey table1 = table2.foreignkey table2
+
+3. RIGHT JOIN
+	- Menampilkan semua data :
+	SELECT *
+	FROM table1
+	RIGHT JOIN table2
+	ON table1.primarykey table1 = table2.foreignkey table2
